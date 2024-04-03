@@ -1,0 +1,154 @@
+ small, .small {
+     font-size: 72%;
+     font-weight: 400;
+ }
+ .down_enquiry {
+     background: #363636;
+     bottom: 0;
+     position: fixed;
+     width: 100%;
+     z-index: 9
+ }
+ .down_enquiry ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0
+ }
+ .down_enquiry ul li {
+     float: left;
+     text-align: center;
+     width: 33.33%;
+     border-right: 1px solid #000
+ }
+ .down_enquiry ul li:last-child {
+     border-right: none
+ }
+ .down_enquiry ul li a {
+     color: #fff;
+     display: block;
+     font-size: 14px;
+     text-decoration: none;
+     font-weight: bold;
+     padding: 10px 0
+ }
+.down_enquiry ul li a:hover {
+    color: #fff;
+    background: #c1900c;
+}
+ .counter {
+     background-color: #ffff;
+     padding: 20px 0;
+     border-radius: 5px;
+ }
+ #feedback {
+     height: 0px;
+     width: 65px;
+     position: fixed;
+     right: 0;
+     top: 50%;
+     z-index: 1000;
+     transform: rotate(-90deg);
+     -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+     text-transform: uppercase;
+     -o-transform: rotate(-90deg);
+     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+ }
+#feedback a {
+    display: block;
+    border: 1px solid;
+    border-radius: 5px 5px 0px 0px;
+    background: #dba40f;
+    height: 59px;
+    padding-top: 3px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+ #feedback a:hover {
+     background: #cf8600;
+     color: #fff;
+ }
+ #feedback .fa-paper-plane {
+    rotate: 90deg;
+}
+ .container-fluid {
+     width: 95%;
+ }
+ .animated {
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+     -webkit-animation-fill-mode: both;
+     animation-fill-mode: both;
+ }
+ .animated.infinite {
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+ }
+ .animated.infinite {
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+ }
+ @-webkit-keyframes slideInDown {
+     0% {
+         -webkit-transform: translate3d(0, -100%, 0);
+         transform: translate3d(0, -100%, 0);
+         visibility: visible;
+     }
+     80% {
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+     }
+     100% {
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+     }
+ }
+ @keyframes slideInDown {
+     0% {
+         -webkit-transform: translate3d(0, -100%, 0);
+         transform: translate3d(0, -100%, 0);
+         visibility: visible;
+     }
+     80% {
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+     }
+     100% {
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+     }
+ }
+ .slideInDown {
+     -webkit-animation-name: slideInDown;
+     animation-name: slideInDown;
+ }
+ .effectScale {
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -ms-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+     -ms-transform: scale(1);
+     -o-transform: scale(1);
+     transform: scale(1);
+ }
+ .effectScale:hover {
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -ms-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     -webkit-transform: scale(1.08);
+     -moz-transform: scale(1.08);
+     -ms-transform: scale(1.08);
+     -o-transform: scale(1.08);
+     transform: scale(1.08);
+ }
